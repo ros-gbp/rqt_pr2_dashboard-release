@@ -1,0 +1,19 @@
+ros-hydro-rqt-pr2-dashboard (0.2.3-0precise) precise; urgency=high
+
+  * Fix; Can't disable breakers from dashboard #2 <https://github.com/ros-visualization/rqt_pr2_dashboard/issues/2>
+
+ -- Isaac Saito <isao.saito@mavs.uta.edu>  Wed, 16 Jan 2013 15:00:00 -0000
+
+ros-hydro-rqt-pr2-dashboard (0.2.2-0precise) precise; urgency=high
+
+
+
+ -- Isaac Saito <isao.saito@mavs.uta.edu>  Sat, 22 Dec 2012 15:00:00 -0000
+
+ros-hydro-rqt-pr2-dashboard (0.2.1-0precise) precise; urgency=high
+
+  * first release into public Groovy
+
+ -- Isaac Saito <isao.saito@mavs.uta.edu>  Thu, 20 Dec 2012 15:00:00 -0000
+
+

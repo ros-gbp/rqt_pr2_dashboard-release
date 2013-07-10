@@ -2,10 +2,9 @@
 Changelog for package rqt_pr2_dashboard
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
-* Will be released by @130s
-* Catkinized
+0.2.4 (2013-07-08)
+------------------
+* Catkinized version first released into public Hydro @130s
 
 0.2.3 (2013-01-17)
 ------------------

@@ -1,0 +1,31 @@
+ros-hydro-rqt-pr2-dashboard (0.2.5-0precise) precise; urgency=high
+
+  * add robot groups for rqt plugins
+
+ -- Aaron Blasdel <ablasdel@willowgarage.com>  Wed, 08 Jan 2014 08:00:00 -0000
+
+ros-hydro-rqt-pr2-dashboard (0.2.4-0precise) precise; urgency=high
+
+  * Catkinized version first released into public Hydro @130s
+
+ -- Isaac Saito <isao.saito@mavs.uta.edu>  Mon, 08 Jul 2013 07:00:00 -0000
+
+ros-hydro-rqt-pr2-dashboard (0.2.3-0precise) precise; urgency=high
+
+  * Fix; Can't disable breakers from dashboard #2 <https://github.com/ros-visualization/rqt_pr2_dashboard/issues/2>
+
+ -- Isaac Saito <isao.saito@mavs.uta.edu>  Thu, 17 Jan 2013 08:00:00 -0000
+
+ros-hydro-rqt-pr2-dashboard (0.2.2-0precise) precise; urgency=high
+
+
+
+ -- Isaac Saito <isao.saito@mavs.uta.edu>  Sun, 23 Dec 2012 08:00:00 -0000
+
+ros-hydro-rqt-pr2-dashboard (0.2.1-0precise) precise; urgency=high
+
+  * first release into public Groovy
+
+ -- Isaac Saito <isao.saito@mavs.uta.edu>  Fri, 21 Dec 2012 08:00:00 -0000
+
+

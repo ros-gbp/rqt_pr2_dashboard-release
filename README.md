@@ -1,3 +1,24 @@
+## rqt_pr2_dashboard (hydro) - 0.2.7-0
+
+The packages in the `rqt_pr2_dashboard` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --rosdistro hydro --track hydro rqt_pr2_dashboard` on `Tue, 05 May 2015 17:51:56 -0000`
+
+The `rqt_pr2_dashboard` package was released.
+
+Version of package(s) in repository `rqt_pr2_dashboard`:
+- upstream repository: https://github.com/ros-visualization/rqt_pr2_dashboard.git
+- release repository: https://github.com/ros-gbp/rqt_pr2_dashboard-release.git
+- rosdistro version: `0.2.6-0`
+- old version: `0.2.6-0`
+- new version: `0.2.7-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## rqt_pr2_dashboard (hydro) - 0.2.6-0
 
 The packages in the `rqt_pr2_dashboard` repository were released into the `hydro` distro by running `/usr/local/bin/bloom-release -r hydro -t hydro rqt_pr2_dashboard` on `Wed, 29 Oct 2014 20:57:07 -0000`

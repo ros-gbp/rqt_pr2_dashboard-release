@@ -1,0 +1,46 @@
+ros-hydro-rqt-pr2-dashboard (0.2.7-0precise) precise; urgency=high
+
+  * Merge pull request #17 <https://github.com/pr2/rqt_pr2_dashboard/issues/17> from jstnhuang/hydro-devel
+    Hydro migration: pr2_etherCAT -> pr2_ethercat
+  * Hydro migration: pr2_etherCAT -> pr2_ethercat
+  * Contributors: Devon Ash, Justin Huang
+
+ -- Devon Ash <noobaca2@gmail.com>  Tue, 05 May 2015 04:00:00 -0000
+
+ros-hydro-rqt-pr2-dashboard (0.2.6-0precise) precise; urgency=high
+
+  * update maintainer (#16 <https://github.com/PR2/rqt_pr2_dashboard/issues/16>)
+
+ -- Devon Ash <noobaca2@gmail.com>  Wed, 29 Oct 2014 04:00:00 -0000
+
+ros-hydro-rqt-pr2-dashboard (0.2.5-0precise) precise; urgency=high
+
+  * add robot groups for rqt plugins
+
+ -- Aaron Blasdel <ablasdel@willowgarage.com>  Wed, 08 Jan 2014 05:00:00 -0000
+
+ros-hydro-rqt-pr2-dashboard (0.2.4-0precise) precise; urgency=high
+
+  * Catkinized version first released into public Hydro @130s
+
+ -- Isaac Saito <isao.saito@mavs.uta.edu>  Mon, 08 Jul 2013 04:00:00 -0000
+
+ros-hydro-rqt-pr2-dashboard (0.2.3-0precise) precise; urgency=high
+
+  * Fix; Can't disable breakers from dashboard #2 <https://github.com/ros-visualization/rqt_pr2_dashboard/issues/2>
+
+ -- Isaac Saito <isao.saito@mavs.uta.edu>  Thu, 17 Jan 2013 05:00:00 -0000
+
+ros-hydro-rqt-pr2-dashboard (0.2.2-0precise) precise; urgency=high
+
+
+
+ -- Isaac Saito <isao.saito@mavs.uta.edu>  Sun, 23 Dec 2012 05:00:00 -0000
+
+ros-hydro-rqt-pr2-dashboard (0.2.1-0precise) precise; urgency=high
+
+  * first release into public Groovy
+
+ -- Isaac Saito <isao.saito@mavs.uta.edu>  Fri, 21 Dec 2012 05:00:00 -0000
+
+

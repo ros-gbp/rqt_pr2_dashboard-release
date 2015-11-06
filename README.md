@@ -1,3 +1,24 @@
+## rqt_pr2_dashboard (indigo) - 0.2.9-0
+
+The packages in the `rqt_pr2_dashboard` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo rqt_pr2_dashboard` on `Fri, 06 Nov 2015 19:00:26 -0000`
+
+The `rqt_pr2_dashboard` package was released.
+
+Version of package(s) in repository `rqt_pr2_dashboard`:
+- upstream repository: https://github.com/ros-visualization/rqt_pr2_dashboard.git
+- release repository: https://github.com/ros-gbp/rqt_pr2_dashboard-release.git
+- rosdistro version: `0.2.8-0`
+- old version: `0.2.8-0`
+- new version: `0.2.9-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.37`
+
+
 ## rqt_pr2_dashboard (indigo) - 0.2.8-0
 
 The packages in the `rqt_pr2_dashboard` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo rqt_pr2_dashboard` on `Sat, 19 Sep 2015 03:16:54 -0000`

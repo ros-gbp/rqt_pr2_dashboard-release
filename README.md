@@ -1,3 +1,26 @@
+## rqt_pr2_dashboard (noetic) - 0.4.0-1
+
+The packages in the `rqt_pr2_dashboard` repository were released into the `noetic` distro by running `/usr/bin/bloom-release rqt_pr2_dashboard --track noetic --ros-distro noetic` on `Wed, 26 May 2021 06:02:02 -0000`
+
+The `rqt_pr2_dashboard` package was released.
+
+Version of package(s) in repository `rqt_pr2_dashboard`:
+
+- upstream repository: https://github.com/PR2/rqt_pr2_dashboard.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.1`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## rqt_pr2_dashboard (kinetic) - 0.4.0-0
 
 The packages in the `rqt_pr2_dashboard` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release rqt_pr2_dashboard --rosdistro kinetic --track kinetic` on `Tue, 13 Feb 2018 06:50:16 -0000`

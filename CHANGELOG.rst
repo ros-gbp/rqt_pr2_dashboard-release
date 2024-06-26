@@ -2,6 +2,15 @@
 Changelog for package rqt_pr2_dashboard
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.1 (2024-06-26)
+------------------
+* Import setup from setuptools instead of distutils.core `#27 <https://github.com/PR2/rqt_pr2_dashboard/issues/27>`_
+* updated package.xml to format version 3
+* show console and monitor by default (`#25 <https://github.com/PR2/rqt_pr2_dashboard/issues/25>`_)
+* fixes for python3 support (`#24 <https://github.com/PR2/rqt_pr2_dashboard/issues/24>`_)
+* add --motor-namespace argument in rqt_pr2_dashboard `#23 <https://github.com/PR2/rqt_pr2_dashboard/issues/23>`_
+* Contributors: Arne Hitzmann, Dave Feil-Seifer, Kei Okada, Michael Goerner, Shingo Kitagawa
+
 0.4.0 (2018-02-05)
 ------------------
 * fix for kinetic (fix Qt path) `#19 <https://github.com/pr2/rqt_pr2_dashboard/issues/19>`_

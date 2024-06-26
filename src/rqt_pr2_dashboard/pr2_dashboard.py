@@ -30,6 +30,7 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
+import argparse
 import roslib
 roslib.load_manifest('rqt_pr2_dashboard')
 import rospy
@@ -65,6 +66,11 @@ class PR2Dashboard(Dashboard):
         self.max_icon_size = QSize(50, 30)
         self.message = None
 
+        parser = argparse.ArgumentParser(prog='pr2_dashboard', add_help=False)
+        PR2Dashboard.add_arguments(parser)
+        args = parser.parse_args(context.argv())
+        self._motor_namespace = args.motor_namespace
+
         self._dashboard_message = None
         self._last_dashboard_message_time = 0.0
 
@@ -72,7 +78,11 @@ class PR2Dashboard(Dashboard):
         self.digital_outs = [0, 0, 0]
 
         self._console = ConsoleDashWidget(self.context, minimal=False)
+        self._console._show_console()
+
         self._monitor = MonitorDashWidget(self.context)
+        self._monitor._show_monitor()
+
         self._motors = PR2Motors(self.on_reset_motors, self.on_halt_motors)
         self._breakers = [PR2BreakerButton('Left Arm', 0),
                          PR2BreakerButton('Base', 1),
@@ -135,21 +145,28 @@ class PR2Dashboard(Dashboard):
             if (not all_breakers_enabled):
                 if(QMessageBox.question(self._breakers[0], self.tr('Enable Breakers?'), self.tr("Resetting the motors may not work because not all breakers are enabled.  Enable all the breakers first?"), QMessageBox.Yes | QMessageBox.No, QMessageBox.Yes) == QMessageBox.Yes):
                     [breaker.set_enable() for breaker in self._breakers]
-        reset = rospy.ServiceProxy("pr2_ethercat/reset_motors", std_srvs.srv.Empty)
+        reset = rospy.ServiceProxy("{}/reset_motors".format(self._motor_namespace), std_srvs.srv.Empty)
         try:
             reset()
-        except rospy.ServiceException, e:
+        except rospy.ServiceException as e:
             QMessageBox.critical(self._breakers[0], "Error", "Failed to reset the motors: service call failed with error: %s" % (e))
 
     def on_halt_motors(self):
-        halt = rospy.ServiceProxy("pr2_ethercat/halt_motors", std_srvs.srv.Empty)
+        halt = rospy.ServiceProxy("{}/halt_motors".format(self._motor_namespace), std_srvs.srv.Empty)
         try:
             halt()
-        except rospy.ServiceException, e:
+        except rospy.ServiceException as e:
             QMessageBox.critical(self._motors, "Error", "Failed to halt the motors: service call failed with error: %s" % (e))
 
     def shutdown_dashboard(self):
         self._dashboard_agg_sub.unregister()
+
+    @staticmethod
+    def add_arguments(parser):
+        group = parser.add_argument_group('Options for pr2_dashboard')
+        group.add_argument(
+            '--motor-namespace', dest='motor_namespace',
+            type=str, default='pr2_ethercat')
 
     def save_settings(self, plugin_settings, instance_settings):
         self._console.save_settings(plugin_settings, instance_settings)

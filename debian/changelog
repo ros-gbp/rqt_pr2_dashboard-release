@@ -1,0 +1,71 @@
+ros-noetic-rqt-pr2-dashboard (0.4.2-1focal) focal; urgency=high
+
+  * catkin_install_python to let catkin to fix shebang (#28 <https://github.com/PR2/rqt_pr2_dashboard/issues/28>)
+  * Contributors: Yoshiki Obinata
+
+ -- Sammy Pfeiffer <Sammy.Pfeiffer@student.uts.edu.au>  Sun, 06 Apr 2025 22:00:00 -0000
+
+ros-noetic-rqt-pr2-dashboard (0.4.1-1focal) focal; urgency=high
+
+  * Import setup from setuptools instead of distutils.core #27 <https://github.com/PR2/rqt_pr2_dashboard/issues/27>
+  * updated package.xml to format version 3
+  * show console and monitor by default (#25 <https://github.com/PR2/rqt_pr2_dashboard/issues/25>)
+  * fixes for python3 support (#24 <https://github.com/PR2/rqt_pr2_dashboard/issues/24>)
+  * add --motor-namespace argument in rqt_pr2_dashboard #23 <https://github.com/PR2/rqt_pr2_dashboard/issues/23>
+  * Contributors: Arne Hitzmann, Dave Feil-Seifer, Kei Okada, Michael Goerner, Shingo Kitagawa
+
+ -- Sammy Pfeiffer <Sammy.Pfeiffer@student.uts.edu.au>  Tue, 25 Jun 2024 22:00:00 -0000
+
+ros-noetic-rqt-pr2-dashboard (0.4.0-1focal) focal; urgency=high
+
+  * fix for kinetic (fix Qt path) #19 <https://github.com/pr2/rqt_pr2_dashboard/issues/19>
+  * Contributors: Furushchev
+
+ -- Sammy Pfeiffer <Sammy.Pfeiffer@student.uts.edu.au>  Sun, 04 Feb 2018 23:00:00 -0000
+
+ros-noetic-rqt-pr2-dashboard (0.2.7-1focal) focal; urgency=high
+
+  * Merge pull request #17 <https://github.com/pr2/rqt_pr2_dashboard/issues/17> from jstnhuang/hydro-devel
+    Hydro migration: pr2_etherCAT -> pr2_ethercat
+  * Hydro migration: pr2_etherCAT -> pr2_ethercat
+  * Contributors: Devon Ash, Justin Huang
+
+ -- Sammy Pfeiffer <Sammy.Pfeiffer@student.uts.edu.au>  Mon, 04 May 2015 22:00:00 -0000
+
+ros-noetic-rqt-pr2-dashboard (0.2.6-1focal) focal; urgency=high
+
+  * update maintainer (#16 <https://github.com/PR2/rqt_pr2_dashboard/issues/16>)
+
+ -- Sammy Pfeiffer <Sammy.Pfeiffer@student.uts.edu.au>  Tue, 28 Oct 2014 23:00:00 -0000
+
+ros-noetic-rqt-pr2-dashboard (0.2.5-1focal) focal; urgency=high
+
+  * add robot groups for rqt plugins
+
+ -- Sammy Pfeiffer <Sammy.Pfeiffer@student.uts.edu.au>  Tue, 07 Jan 2014 23:00:00 -0000
+
+ros-noetic-rqt-pr2-dashboard (0.2.4-1focal) focal; urgency=high
+
+  * Catkinized version first released into public Hydro @130s
+
+ -- Sammy Pfeiffer <Sammy.Pfeiffer@student.uts.edu.au>  Sun, 07 Jul 2013 22:00:00 -0000
+
+ros-noetic-rqt-pr2-dashboard (0.2.3-1focal) focal; urgency=high
+
+  * Fix; Can't disable breakers from dashboard #2 <https://github.com/ros-visualization/rqt_pr2_dashboard/issues/2>
+
+ -- Sammy Pfeiffer <Sammy.Pfeiffer@student.uts.edu.au>  Wed, 16 Jan 2013 23:00:00 -0000
+
+ros-noetic-rqt-pr2-dashboard (0.2.2-1focal) focal; urgency=high
+
+
+
+ -- Sammy Pfeiffer <Sammy.Pfeiffer@student.uts.edu.au>  Sat, 22 Dec 2012 23:00:00 -0000
+
+ros-noetic-rqt-pr2-dashboard (0.2.1-1focal) focal; urgency=high
+
+  * first release into public Groovy
+
+ -- Sammy Pfeiffer <Sammy.Pfeiffer@student.uts.edu.au>  Thu, 20 Dec 2012 23:00:00 -0000
+
+
